@@ -22,6 +22,6 @@ document.querySelector('.btn-cadastro-login').addEventListener('click', () => {
         return;
     }
 
-    alert(`Cadastro efetuado com sucesso! Bem-vindo ao OptiCam.`);
+    alert(`Login efetuado com sucesso! Bem-vindo ao OptiCam.`);
     console.log(`Email: ${email} | Senha: ${senha}`);
 });
