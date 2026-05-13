@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pagina-menu{
+    background: linear-gradient(to right, rgb(108, 6, 148) 25%, rgb(142, 11, 194) 25%);
+}
+
+.menu{
+    display: flex;
+}
+
+.left h1{
+    margin: 320px 130px 100px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.botao-cadastro{
+    margin: 0px 95px 0px;
+}
+
+.botao-login{
+    margin: 35px 95px 0px;
+}
+
+.btn-menu{
+    border: 2px solid #fff;
+    background-color: rgb(142, 11, 194);
+    border-radius: 10px;
+    color: #fff;    
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    padding: 15px 80px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.right {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    color: white;
+    h2{
+        font-size: 40px;
+        font-family: Montserrat, sans-serif;
+        margin: 100px 100px 0px;
+    }
+    p{
+        font-size: 20px;
+        font-family: Montserrat, sans-serif;
+        margin: 50px 100px 0px;
+        max-width: 1050px;
+        text-align: justify;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.pagina-cadastro, .pagina-login {
+    background-color: rgb(142, 11, 194);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 420px;
+    background: white;
+    border-radius: 30px;
+    padding: 40px 30px;
+    position: relative;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.topo a {
+    text-decoration: none;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.topo a.active {
+    color: #555;
+    font-weight: bold;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imagem-padrao {
+    width: 90px;
+    height: 90px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: gray;
+}
+
+.imagem-padrao img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box {
+    background: #f3f3f3;
+    border-radius: 25px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 15px;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.btn-cadastro-login {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(142, 11, 194);
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn-cancelar {
+    flex: 1;
+    padding: 14px;
+    border: 2px solid rgb(142, 11, 194);
+    border-radius: 30px;
+    background: white;
+    color: rgb(142, 11, 194);
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn-cadastro-login:hover {
+    background: #c40de9;
+}
+
+.btn-cancelar:hover {
+    background: #f3e0fa;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: gray;
+    padding: 0 5px;
+}
+
+.opcoes a {
+    text-decoration: none;
+    color: gray;
+}
+
+.opcoes input {
+    margin-right: 5px;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slide {
+    display: none;
+    width: 400px;
+    height: 820px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 60px 0px 0px;
+}
+
+.slide.active {
+    display: block;
+}
+
+.btn-slide {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-slide:hover {
+    background: rgba(0,0,0,0.8);
+}
